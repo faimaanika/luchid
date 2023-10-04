@@ -1,0 +1,274 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+body{
+	font-family: 'Source Sans 3', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6,{
+
+}
+
+a,a:hover{
+	text-decoration: none;
+}
+
+ul{
+	margin: 0;
+	padding: 0;
+}
+
+li{
+	list-style: none;
+}
+
+
+/*header-section css code start*/
+
+.header-section{
+	padding: 15px 0px;
+	background: url(../img/body.png) center center no-repeat;
+	background-size: cover;
+}
+
+.header-section .logo-1{
+	margin-right: 5px;
+}
+
+.header-section .nav-link,.header-section .active{
+	color: #fffefe!important;
+}
+
+.header-section .nav-link:hover{
+	background: url(../img/logo3.png) center bottom no-repeat;
+}
+
+
+.header-section .content {
+	padding: 130px 0px;
+
+}
+
+
+.header-section .content span{
+	text-transform: uppercase;
+	font-size: 14px;
+	color: #008ed6;
+	font-weight: 600;
+	letter-spacing: 2px;	
+}
+
+.header-section .content h1{
+	font-size: 48px;
+	color: #fff;
+	font-weight: 400;
+	padding-right: 32px;
+}
+
+.header-section .content p{
+	font-size: 18px;
+	color: #787879;
+	padding-right: 158px;
+	line-height: 28px;
+}
+
+.header-section .content .jora-button{
+	padding-top: 50px;
+}
+
+.header-section .content .jora-button .btn-primary{
+	background: #008ed6 !important;
+	border-radius: 3px !important;
+	padding: 10px 20px;
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 14px;
+	margin-right: 16px;
+	transition: .5s;
+}
+
+.header-section .content .jora-button .btn-primary:hover{
+	background: transparent !important;
+	border: 1px solid #787879 !important;
+	color: white;
+	transition: .5s;
+}
+
+.header-section .content .jora-button .btn-info{
+	background: transparent !important;
+	border: 1px solid #787879 !important;
+	border-radius: 3px !important;
+	padding: 10px 20px;
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 14px;
+	color: white;
+	transition: .5s;
+}
+
+.header-section .content .jora-button .btn-info:hover{
+	background: #008ed6 !important;
+	border-radius: 3px !important;
+	transition: .5s;
+}
+
+
+
+/*feauters-section code start here*/
+
+.feauters-section{
+	text-align: center;
+}
+
+.feauters-section .head-part{
+	margin-top: 50px;
+}
+
+.feauters-section .head-part h5{
+	font-size: 14px;
+	color: #008ed6;
+	font-weight: 700;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+
+.feauters-section .head-part h2{
+	font-size: 36px;
+	color: #1a1a1a;
+	font-weight: 500;
+	text-transform: inherit;
+}
+
+.feauters-section .head-part1{
+	margin-top: 70px;
+}
+
+.feauters-section .head-part1 img{
+	margin-left: -55px;
+}
+
+.feauters-section .head-part1 .img-part1{
+	margin-top: 30px;
+}
+
+.feauters-section .img-part1 h5{
+	font-size: 25px;
+	color: #1a1a1a;
+	font-weight: 400;
+	text-transform: inherit;
+	margin-left: -45px;
+}
+
+
+.feauters-section .img-part1 p{
+	font-size: 18px;
+	color: #787879;
+	padding-right: 55px;
+	line-height: 25px;
+}
+
+
+.feauters-section .line{
+	border: 1px solid #ffe5e5;
+}
+
+/* beautiful-section  css code start*/
+
+.beautiful-section{
+	margin-top: 100px;
+}
+
+
+.beautiful-section .second-part{
+	margin-top: 50px;
+}
+
+
+.beautiful-section .second-part1{
+	margin-top: 30px;
+}
+
+
+
+.beautiful-section .second-part h5{
+	font-size: 14px;
+	color: #008ed6;
+	font-weight: 400;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+
+.beautiful-section .second-part h2{
+	font-size: 36px;
+	color: #1a1a1a;
+	font-weight: 500;
+	text-transform: inherit;
+}
+
+.beautiful-section .second-part p{
+	font-size: 18px;
+	color: #787879;
+	padding-right: 55px;
+	line-height: 25px;
+	margin-top: 15px;	
+}
+
+.beautiful-section .second-part ul{
+	
+}
+
+.beautiful-section .second-part ul li{
+	margin-top: 15px;	
+}
+
+.beautiful-section .second-part ul li img{
+	margin-right: 10px;
+}
+
+.beautiful-section ul li span{
+	
+}
+
+
+/*super-section css code start*/
+
+
+.super-section{
+	background: #f2f2f2;
+	margin-top: 20px;
+
+}
+
+
+.super-section .third-part{
+	margin-top: 100px;
+}
+
+
+.super-section .third-part h5{
+	font-size: 14px;
+	color: #008ed6;
+	font-weight: 400;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+
+
+.super-section .third-part h2{
+	font-size: 36px;
+	color: #1a1a1a;
+	font-weight: 400;
+	text-transform: inherit;	
+}
+
+
+.super-section .third-part p{
+	font-size: 18px;
+	color: #787879;
+	padding-right: 122px;
+	line-height: 25px;
+	margin-top: 15px;
+}
